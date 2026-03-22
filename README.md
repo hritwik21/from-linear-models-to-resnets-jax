@@ -62,12 +62,6 @@ jupyter notebook notebooks/vision_benchmark_jax.ipynb
 
 For CPU-only setups, the JAX docs note that a typical installation is `pip install -U jax`; GPU installs use different extras depending on the platform.
 
-## Notes
-
-- The project intentionally keeps the original experiment flow lightweight and easy to inspect.
-- This repo is positioned as an **empirical benchmark project**, not as a coursework dump.
-- The included artifacts are limited to essential experiments and representative checkpoints so the repo stays clean.
-
 ## Possible next upgrades
 
 - Add data augmentation and learning-rate schedules
